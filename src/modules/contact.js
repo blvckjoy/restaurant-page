@@ -63,8 +63,9 @@ function loadContactContent() {
    iFrame.setAttribute("loading", "eager");
    mapContainer.appendChild(iFrame);
 
+   container.innerHTML = "";
+
    container.appendChild(contactSection);
-   return container.innerHTML;
 }
 
 export { loadContactContent };

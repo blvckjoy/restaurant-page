@@ -92,9 +92,9 @@ function loadMenuContent() {
    // Append menuItems to menu
    menu.appendChild(menuItems);
 
-   container.appendChild(menuSection);
+   container.innerHTML = "";
 
-   return container.innerHTML;
+   container.appendChild(menuSection);
 }
 
 export { loadMenuContent };
