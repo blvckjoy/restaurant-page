@@ -1,5 +1,4 @@
 import "./styles.css";
-import "./styles.css";
 import { loadHomeContent } from "./modules/home.js";
 import { loadMenuContent } from "./modules/menu.js";
 import { loadContactContent } from "./modules/contact.js";
